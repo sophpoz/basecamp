@@ -1,7 +1,8 @@
 body{
 	margin:0;
 	padding:0;
-	font-family: 'Roboto', 'Helvetica', sans-serif;
+	font-family: "filson-soft",sans-serif;
+	/*font-weight: 200;*/
 	letter-spacing: 1px;
 	color: #231f20;
 }
@@ -44,6 +45,7 @@ li{
 	justify-content: center;
 	align-items:center;
 
+
 }
 .headerContentPic{
 	width: 300px;
@@ -52,16 +54,19 @@ li{
 	width:100%;
 }
 .headerContent{
-	font-family: 'Montserrat Alternates', sans-serif;
-	letter-spacing: 2px;
-	font-size: 3rem;
+	font-family: "filson-soft",sans-serif;
+	letter-spacing: 2.5px;
+	font-size: 3.75rem;
 	max-width: 1000px
+	
 }
 .coverLetter, .favorites{
 	margin: 0 auto;
 	max-width: 1000px;
 	padding: 40px;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
+	font-family: "museo-slab",serif;
+	font-weight: 100;
 }
 .favorites{
 	font-size: 1.5rem;
@@ -79,16 +84,23 @@ a{
 	text-decoration: none;
 	color: #231f20;
 }
+.initials a {
+	color: #c2bbf0;
+}
 .topNav a:hover{
 	border-bottom: 4px solid #c2bbf0;
 	box-shadow:  #c2bbf0 0px -10px 0px inset;
 }
-.coverLetter a{
+.coverLetter a, .favorites a{
 	border-bottom: 4px solid #c2bbf0;
 }
-.coverLetter a:hover{
+.coverLetter a:hover, .favorites a:hover{
 	border-bottom: 6px solid #c2bbf0;
 	box-shadow:  #c2bbf0 0px -10px 0px inset;
+}
+.email{
+	max-width: 600px;
+	font-family:sans-serif;
 }
 @media only screen and (max-width:800px) {
 	.header{
